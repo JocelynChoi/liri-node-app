@@ -1,0 +1,25 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "liri",
+  "main": "liri.js",
+  "scripts": {
+    "start": "node twitter-example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JocelynChoi/liri-node-app.git"
+  },
+  "author": "jocelyn choi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JocelynChoi/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/JocelynChoi/liri-node-app#readme",
+  "dependencies": {
+    "omdb": "^0.8.0",
+    "request": "^2.85.0",
+    "twitter": "^1.7.1"
+  }
+}
